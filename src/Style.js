@@ -2,33 +2,26 @@ import {StyleSheet} from 'react-native';
 
 export default StyleSheet.create({
 	rootContainer:{
-		flex:1,
-		alignItems: 'center',
 		backgroundColor: '#F2F29D'
 	},
 
-	bottomContainer:{
-		flex: 1,
-		alignItems: 'stretch',
-	},
-
-	responseContainer:{
-		fontSize: 40,
-		paddingTop: 50,
-	},
-
-	questionContainer:{
-		fontSize: 30,
+	topContainer:{
 		alignItems: 'center',
-		backgroundColor:'#F2F29D'
 	},
 
-	answerContainer:{
-		flex: 1,
-		backgroundColor:'#82d9e5'
+	bigText:{
+		fontSize: 40,
+		color: 'green',
 	},
 
-	buttonContainer:{
-		flex: 15,
+	mediumText:{
+		fontSize: 24,
+		color: 'blue',
 	},
+
+	smallText:{
+		fontSize: 17,
+		color: 'black',
+	},
+
 });
