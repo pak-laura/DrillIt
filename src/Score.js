@@ -3,7 +3,7 @@ import { Button, Text } from 'react-native';
 import { Col, Row, Grid } from 'react-native-easy-grid';
 import styles from './Style';
 
-export default () => (
+export default props => (
   <Grid style={styles.rootContainer}>
     <Row size={11} />
     <Row size={10}>
@@ -41,7 +41,7 @@ export default () => (
       </Col>
     </Row>
     <Row size={5}>
-      <Button onPress={() => this.props.history.push('/Game')} title="New Game" />
+      <Button onPress={() => props.history.push('/')} title="New Game" />
     </Row>
     <Row size={10}>
       <Text style={styles.smallText}>Tap your Score, Hit, or Miss for details</Text>
