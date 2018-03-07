@@ -41,7 +41,7 @@ export default () => (
       </Col>
     </Row>
     <Row size={5}>
-      <Button onPress={() => this.props.history.goBack()} title="New Game" />
+      <Button onPress={() => this.props.history.push('/Game')} title="New Game" />
     </Row>
     <Row size={10}>
       <Text style={styles.smallText}>Tap your Score, Hit, or Miss for details</Text>

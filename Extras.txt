@@ -4,6 +4,9 @@ npm install react-native-easy-grid --save
 For history,
 npm install --save history
 
+For nagivation,
+yarn add -D react-router-native --save??
+
 Old Styles:
 import {StyleSheet} from 'react-native';
 
