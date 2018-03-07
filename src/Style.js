@@ -2,11 +2,17 @@ import {StyleSheet} from 'react-native';
 
 export default StyleSheet.create({
 	rootContainer:{
-		backgroundColor: '#F2F29D'
+		backgroundColor: '#F2F29D',
+		alignItems: 'center',
 	},
 
-	topContainer:{
+	centerCol:{
 		alignItems: 'center',
+	},
+
+	hugeText:{
+		fontSize: 60,
+		color: 'purple',
 	},
 
 	bigText:{

@@ -1,6 +1,9 @@
 For grid/row/col,
 npm install react-native-easy-grid --save
 
+For history,
+npm install --save history
+
 Old Styles:
 import {StyleSheet} from 'react-native';
 
